@@ -1,4 +1,4 @@
-import "codemirror/mode/javascript/javascript";
+import "codemirror/mode/sparql/sparql";
 import "codemirror/lib/codemirror.css";
 import "codemirror/theme/idea.css";
 import "codemirror/addon/hint/show-hint.css";
