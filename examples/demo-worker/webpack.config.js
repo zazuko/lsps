@@ -60,4 +60,30 @@ module.exports = [
       path: path.resolve(__dirname, "public/js"),
     },
   },
+  {
+    entry: {
+      main: "./src/sparql.ts",
+    },
+    plugins: [],
+    module: {
+      rules: [
+        {
+          test: /\.ts$/,
+          use: "ts-loader",
+          exclude: /node_modules/,
+        },
+      ],
+    },
+    resolve: {
+      extensions: [".ts", ".js"],
+    },
+    target: "webworker",
+    node: {
+      fs: "empty",
+    },
+    output: {
+      filename: "sparql.js",
+      path: path.resolve(__dirname, "public/js"),
+    },
+  },
 ];

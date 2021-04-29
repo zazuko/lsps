@@ -12,7 +12,8 @@
     "codemirror": "^5.56.0",
     "marked": "^1.1.1",
     "vscode-json-languageservice": "^3.8.3",
-    "vscode-languageserver-protocol": "^3.16.0"
+    "vscode-languageserver-protocol": "^3.16.0",
+    "sparql-language-server": "^4.0.0"
   },
   "devDependencies": {
     "@types/codemirror": "0.0.98",
@@ -26,6 +27,7 @@
     "typescript": "^4.0.2",
     "webpack": "^4.44.1",
     "webpack-bundle-analyzer": "^3.8.0",
-    "webpack-cli": "^3.3.12"
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.2"
   }
 }
